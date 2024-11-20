@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Jost:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Jost:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Cursor animation -->
+    <div id="custom-cursor"></div>
+    <!-- blur div -->
+    <div class="blur-div"></div>
+    <!-- Nav Bar Code -->
+    <div class="navbar">
+      <img src="./utils/logo-png.png" alt="Adyant Logo" class="nav-logo" />
+      <ul class="nav-links">
+        <li><a class="nav-items" href="#about-info-heading">About Us</a></li>
+        <li><a class="nav-items" href="#about">Consortium</a></li>
+        <li><a class="nav-items" href="#services">Events</a></li>
+        <li><a class="nav-items" href="#contact">CSE Chronicles</a></li>
+        <li><a class="nav-items" href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="toggle-btn" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <h1 id="mrec-heading">Malla Reddy Engineering College</h1>
+    <h3 id="cse-heading">CSE Community, Adyant - From Beginning To End</h3>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <!-- About us page -->
+    <div class="about-div">
+      <div class="about-info">
+        <h3 id="about-info-heading">About Us</h3>
+        <p>
+          Sample Text: Adyant is a space for students to explore interests,
+          share knowledge, and grow professionally and personally. Whether
+          you're into coding, event management, or the arts, Adyant has
+          something for everyone.
+        </p>
+        <div class="about-button-div">
+          <button class="about-button mission-button">Our Mission</button>
+          <button class="about-button vision-button">Our Vision</button>
+        </div>
+        <div class="mission-vision">
+          <div id="mission">
+            <p id="mission-text">
+              To empower students with the knowledge, skills, and opportunities
+              they need to excel in technology and make meaningful contributions
+              to society.
+            </p>
+          </div>
+          <div id="vision">
+            <p id="vision-text">
+              To create a thriving ecosystem where students lead, innovate, and
+              inspire one another while making a lasting impact on the tech
+              community.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about-img-div">
+        <img src="./utils/logo-png.png" alt="Adyant logo" class="about-img" />
+      </div>
+    </div>
+
+    <!-- Animated lines -->
+    <!-- <div class="animated-line left-line"></div>
+    <div class="animated-line bottom-line"></div> -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
